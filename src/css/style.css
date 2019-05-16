@@ -1,0 +1,630 @@
+@font-face {
+    font-family: 'dooodleistaregular';
+    src: url('dooodleista-webfont.woff2') format('woff2'),
+         url('dooodleista-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dooodleistabold';
+    src: url('dooodleistabold-webfont.woff2') format('woff2'),
+         url('dooodleistabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    font-family: 'dooodleistaregular';
+}
+
+body{
+    background: rgba(180, 26, 211, 0.575);
+}
+.topContainer{
+    height: 0%;
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+    background-color: grey;
+}
+
+.navBarT img {
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 35px;
+}
+
+.navBarT ul {
+    position: absolute;
+    top: 50px;
+    padding: 0px;
+}
+
+.navBarT ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navBarT a{
+    text-decoration: none;
+    color: white;
+    font-family: 'dooodleistabold';
+    letter-spacing: 2px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.navBarT a:hover {
+    text-decoration: none;
+    color: white;
+    background: rgba(180, 26, 211, 0.575);
+    border-radius: 5px;
+}
+
+.navBarT {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+
+@media (min-width: 768px) {
+    .topContainer{
+        height: 0%;
+        width: 100%;
+        position: relative;
+        padding-right: 15px;
+        background-color: grey;
+    }
+    
+    .navBarT img {
+        width: 250px;
+        height: 50px;
+        position: absolute;
+        top: 0px; 
+    }
+    
+    .navBarT ul {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+    }
+    
+    .navBarT ul li {
+        display: inline;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .navBarT a{
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        font-family: 'dooodleistabold';
+        letter-spacing: 2px;
+    }
+    
+    .navBarT a:hover {
+        text-decoration: none;
+        color: white;
+        background: rgba(180, 26, 211, 0.575);
+        border-radius: 5px;
+    }
+    
+    .navBarT {
+        background-color: grey;
+        padding-top: 10px;
+        padding-bottom: 90px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .topContainer{
+        height: 0%;
+        width: 100%;
+        position: relative;
+        padding-right: 15px;
+        background-color: grey;
+    }
+    
+    .navBarT img {
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        top: 0px; 
+    }
+    
+    .navBarT ul {
+        position: absolute;
+        right: 40px;
+        top: 30px;
+    }
+    
+    .navBarT ul li {
+        display: inline;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    
+    .navBarT a{
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+        font-family: 'dooodleistabold';
+        letter-spacing: 2px;
+    }
+    
+    .navBarT a:hover {
+        text-decoration: none;
+        color: white;
+        background: rgba(180, 26, 211, 0.575);
+        border-radius: 5px;
+    }
+    
+    .navBarT {
+        background-color: grey;
+        padding-top: 10px;
+        padding-bottom: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.heroImageW{
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+    color: purple;
+    
+}
+.heroImage{
+    width: 100%;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+}
+.searchHeading h1{
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+    background: rgba(224, 224, 224, 0.251);
+}
+.heroForm{
+    font-size: 30px;
+}
+.search .form {
+    margin-bottom: 10px;
+}
+.search button {
+    position: absolute;
+    top: 105%;
+    left: 41%;
+    font-size: 20px;
+    background: rgba(224, 224, 224, 0.651);
+    border-style: none;
+    border-radius: 5px;
+}
+.search button:hover {
+    background: rgba(118, 127, 255, 0.3);
+    color: white;
+}
+@media (min-width: 1440px){
+    .heroImageW{
+        position: relative;
+        max-height: 500px;
+        overflow: hidden;
+        color: purple;
+        
+    }
+    .heroImage{
+        width: 100%;
+        overflow: hidden;
+    }
+    .search{
+        position: absolute;
+        top: 0;
+        right: 50%;
+        transform: translateX(50%);
+        
+    }
+    .searchHeading h1{
+        text-align: center;
+        font-size: 110px;
+    }
+    .heroForm{
+        font-size: 30px;
+    }
+    
+    .search .form {
+        margin-bottom: 10px;
+    }
+    .search button {
+        position: absolute;
+        top: 105%;
+        left: 45%;
+        background: rgba(224, 224, 224, 0.651);
+        border-style: none;
+        border-radius: 5px;
+        font-size: 33px;
+    }
+    .search button:hover {
+        background: rgba(118, 127, 255, 0.3);
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.whTitle {
+    text-align: center;
+}
+.whTitle h2{
+    font-size: 60px;
+}
+.whContainer {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: grey;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: 1.3s;
+    text-align: center;
+    font-size: 30px;
+    height: 500px;
+    width: 55%;
+}
+.box:hover{
+    transform: scale(1.1);
+    
+}
+.beachBox{
+    transition: ease-in-out;
+    background-image: url("../images/beach.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.beachBox:hover{
+    transition: ease-out 1s;
+    transform: scale(1.1);
+    background-image: url("../images/beach.gif");
+    background-size: cover;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 3px #000;
+}
+.concertBox{
+    transition: ease-in-out;
+    background-image: url("../images/concert.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+.concertBox:hover{
+    transition: ease-out 1s;
+    transform: scale(1.1);
+    background-image: url("../images/concert.gif");
+    background-size: cover;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 3px #000;
+}
+.sitesBox{
+    transition: ease-in-out;
+    background-image: url("../images/beach.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sitesBox:hover{
+    transition: ease-out 1s;
+    transform: scale(1.1);
+    background-image: url("../images/beach.gif");
+    background-size: cover;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    box-shadow: 3px 3px 3px #000;
+}
+.static {
+    position:absolute;
+}
+  
+  .static:hover {
+    opacity:0;
+}
+@media (min-width: 768px){
+    .whTitle {
+        text-align: center;
+    }
+    .whTitle h2{
+        font-size: 60px;
+    }
+    .whContainer {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: grey;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box{
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        display: inline-block;
+        transition: 1.3s;
+        text-align: center;
+        font-size: 30px;
+        height: 500px;
+        width: 25%;
+    }
+    .box:hover{
+        transform: scale(1.1);
+        
+    }
+    .static {
+        position:absolute;
+    }
+      
+      .static:hover {
+        opacity:0;
+    }
+}
+@media (min-width: 1440px){
+    .whTitle {
+        text-align: center;
+    }
+    .whTitle h2{
+        font-size: 60px;
+    }
+    .whContainer {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background: grey;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .box{
+        width: 20%;
+        height: 600px;
+        background-repeat: no-repeat;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 30px;
+        display: inline-block;
+        transition: 1.3s;
+        text-align: center;
+        font-size: 30px;
+    }
+    .box:hover{
+        transform: scale(1.1);
+        
+    }
+    .beachBox{
+        transition: ease-in-out;
+        background-image: url("../images/beach.png");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .beachBox:hover{
+        transition: ease-out 1s;
+        transform: scale(1.1);
+        background-image: url("../images/beach.gif");
+        background-size: cover;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        box-shadow: 3px 3px 3px #000;
+    }
+    .concertBox{
+        transition: ease-in-out;
+        background-image: url("../images/concert.png");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: white;
+    }
+    .concertBox:hover{
+        transition: ease-out 1s;
+        transform: scale(1.1);
+        background-image: url("../images/concert.gif");
+        background-size: cover;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        box-shadow: 3px 3px 3px #000;
+    }
+    .sitesBox{
+        transition: ease-in-out;
+        background-image: url("../images/beach.png");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .sitesBox:hover{
+        transition: ease-out 1s;
+        transform: scale(1.1);
+        background-image: url("../images/beach.gif");
+        background-size: cover;
+        z-index: 2;
+        height: 100%;
+        width: 100%;
+        box-shadow: 3px 3px 3px #000;
+    }
+    .static {
+        position:absolute;
+    }
+      
+      .static:hover {
+        opacity:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottomContainer{
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+}
+.navBarB ul {
+    position: absolute;
+    top: -70px;
+}
+.navBarB ul li {
+    list-style-type: none;
+    padding: 0px 10px 0px 90px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+.navBarB a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+.navBarB a:hover {
+    text-decoration: none;
+    color: white;
+    background: rgba(180, 26, 211, 0.575);
+    border-radius: 5px;
+}
+.navBarB {
+    background: grey;
+    padding: 80px 0px 180px 0px;
+}
+@media (min-width: 768px){
+    .navBarB ul {
+        position: absolute;
+        left: 225px;
+    }
+}
+@media (min-width: 1440px){
+    .bottomContainer{
+        width: 100%;
+        position: relative;
+        padding-right: 15px;
+    }
+    .navBarB ul {
+        position: absolute;
+        top: 30px;
+    }
+    .navBarB ul li {
+        display: inline;
+        list-style-type: none;
+        padding: 0px 10px 0px 40px;
+        font-family: 'Barlow', sans-serif;
+        text-decoration: none;
+    }
+    .navBarB a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+    .navBarB a:hover {
+        text-decoration: none;
+        color: white;
+        background: rgba(180, 26, 211, 0.575);
+        border-radius: 5px;
+    }
+    .navBarB {
+        background: grey;
+        padding: 80px 0px 180px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.productsW{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.products{
+    background-color: white;
+    margin-bottom: 70px;
+}
+.products h3{
+    font-size: 40px;
+}
+.products img{
+    max-height: 200px;
+}
+@media (max-width: 768px) {
+    .products img{
+        max-height: 128px;
+    }
+}
+@media (max-width: 425px) {
+    .products img{
+        max-height: 180px;
+    }
+}
